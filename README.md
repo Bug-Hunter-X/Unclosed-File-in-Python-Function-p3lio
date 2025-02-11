@@ -1,0 +1,1 @@
+This repository demonstrates a common but easily overlooked error in Python: failing to close a file after opening it.  The `bug.py` file shows the problematic code, while `bugSolution.py` provides the corrected version using a `with` statement.  Unclosed files can lead to resource exhaustion and errors.  Always ensure proper file closure for robust code.
